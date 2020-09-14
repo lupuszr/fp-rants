@@ -5,7 +5,34 @@
 [![Build Status - Travis][travis-badge]][travis-ci]
 [![Build Status - GitHub Actions][gha-badge]][gha-ci]
 
-# node-typescript-boilerplate
+# fp-rants
+
+A playground for FP and category theory written in typescript.
+This project is for implementation ideas and learning it is not meant for
+production use. For that see fp-ts or use a better language.
+
+* Phantom types
+* No simulated HKT for more readable code
+* Property based testing for laws
+* Usage examples
+
+Implementation Roadmap
+
+[+] Pair
+[~] Writer
+[-] Reader
+[-] State
+[-] Maybe
+[-] Either
+[-] List
+[-] DList
+[-] Tree
+[-] Optics
+[-] Traversals
+[-] Zippers
+
+
+I am planning to add a storyboard or something similiar so everyone can easily play with the code.
 
 👩🏻‍💻 Developer Ready: A comprehensive template. Works out of the box for most [Node.js][nodejs] projects.
 
@@ -21,8 +48,6 @@
 - .editorconfig for consistent file format
 - Reproducible environments thanks to [Volta][volta]
 - Example configuration for [GitHub Actions][gh-actions] and [Travis CI][travis]
-
-🤲 Free as in speech: available under the APLv2 license.
 
 ## Getting Started
 
